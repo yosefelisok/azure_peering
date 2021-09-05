@@ -1,0 +1,7 @@
+az network vnet create \
+    --resource-group learn-bdcc2a18-fb71-4767-899b-c762ab96806c \
+    --name ResearchVNet \
+    --address-prefixes 10.3.0.0/16 \
+    --subnet-name Data \
+    --subnet-prefixes 10.3.1.0/24 \
+    --location westeurope

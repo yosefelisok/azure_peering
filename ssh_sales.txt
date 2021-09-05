@@ -1,0 +1,1 @@
+ssh -o StrictHostKeyChecking=no azureuser@40.69.70.111

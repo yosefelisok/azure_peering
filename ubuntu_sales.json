@@ -1,0 +1,10 @@
+az vm create \
+    --resource-group learn-bdcc2a18-fb71-4767-899b-c762ab96806c \
+    --no-wait \
+    --name SalesVM \
+    --location northeurope \
+    --vnet-name SalesVNet \
+    --subnet Apps \
+    --image UbuntuLTS \
+    --admin-username azureuser \
+    --admin-password <password>

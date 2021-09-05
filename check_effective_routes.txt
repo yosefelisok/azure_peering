@@ -1,0 +1,4 @@
+az network nic show-effective-route-table \
+    --resource-group learn-bdcc2a18-fb71-4767-899b-c762ab96806c \
+    --name SalesVMVMNic \
+    --output table
